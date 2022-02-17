@@ -10,7 +10,13 @@ Test case:
 ```mermaid
 graph LR;
     A===B;
-    A-->C;
-    B-->D;
-    C-->D;
+    A===C;
+    A===D;
+    B===D;
+    B===C;
+    C===D;
+    C===E;
+    D===E;
+    D===F;
+    E===F;
 ```
