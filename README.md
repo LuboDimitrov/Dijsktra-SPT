@@ -8,8 +8,8 @@ I would explain how Dijkstra's algorithm works but if you are reading this I tak
 Test case:
 
 ```mermaid
-graph TD;
-    A===B;
+graph LR;
+    A===|2|B;
     A===C;
     A===D;
     B===D;
