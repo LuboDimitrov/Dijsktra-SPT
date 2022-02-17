@@ -8,7 +8,7 @@ I would explain how Dijkstra's algorithm works but if you are reading this I tak
 Test case:
 
 ```mermaid
-graph LR;
+graph TD;
     A===B;
     A===C;
     A===D;
