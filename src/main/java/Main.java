@@ -70,6 +70,7 @@ public class Main {
     }
 
     public static void calculateShortestPathFromSource(Node source) {
+        //REMINDER: Insertion, deletion and retrieval in hashsets are O(1) operations, in hashtrees are O(log n)
         Set<Node> VisitedNodes = new HashSet<>();
         Set<Node> UnvisitedNodes = new HashSet<>();
 
